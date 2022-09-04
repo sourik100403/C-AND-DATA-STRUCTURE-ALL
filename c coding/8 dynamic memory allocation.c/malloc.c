@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int* ptr;
+	int n;
+	int i;
+	printf("the size of arry is you want to created\n");
+	scanf("%d",&n);
+	ptr=(int*)malloc(n*sizeof(int));
+	for(i=0;i<n;i++)
+	{
+		printf("the value of %d of the arry\n",i);
+		scanf("%d",&ptr[i]);
+	}
+		for(i=0;i<n;i++)
+	{
+		printf("the value at %d of their arry is %d\n",i,ptr[i]);
+    }
+   // return 0;
+}
