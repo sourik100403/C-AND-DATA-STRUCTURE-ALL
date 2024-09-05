@@ -89,7 +89,7 @@ void delete_any()
 {
 	int pos,i=2,n;
 	temp=head;
-	printf("enter ")
+	printf("enter ");
 	if(head==NULL)
 	printf("empty list");
 	if(pos==1)

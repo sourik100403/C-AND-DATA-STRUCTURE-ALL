@@ -13,24 +13,24 @@ int main()
     {
         min=n1;
     }
-    // for(int i=1;i<=min;i++)
-    // {
-    //     if(n1%i==0 && n2%i==0)
-    //     {
-    //         gcd=i;
-    //     }
-    // }
-
-
-    //process 2
-    for(int i=min;i>=1;i--)
+    for(int i=1;i<=min;i++)
     {
         if(n1%i==0 && n2%i==0)
         {
-            // gcd=i;
-            printf("%d ",i);
-            break;
+            gcd=i;
         }
     }
-    // printf("gcd of %d and %d is=%d ",n1,n2,gcd);
+
+
+    //process 2
+    // for(int i=min;i>=1;i--)
+    // {
+    //     if(n1%i==0 && n2%i==0)
+    //     {
+    //         // gcd=i;
+    //         printf("%d ",i);
+    //         break;
+    //     }
+    // }
+    printf("gcd of %d and %d is=%d ",n1,n2,gcd);
 }
